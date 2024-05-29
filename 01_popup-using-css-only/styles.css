@@ -61,8 +61,7 @@ body {
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
-  }
-  
+  }  
   .popup h2 {
     margin-top: 0;
     color: #333;text-align: center;
