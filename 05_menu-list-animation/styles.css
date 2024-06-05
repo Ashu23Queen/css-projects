@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.custom-list-menu li{
+	width: 300px;
+	height: 80px;
+	overflow: hidden; font-family: 'Mulish';
+	display: block;border-radius:10px;
+	background: #fff;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	margin-bottom: 4px;
+	border-left: 10px solid #ff6d13;
+	transition: all 300ms ease-in-out;
+}
+.custom-list-menu li:last-child{
+    margin-bottom: 0px;
+}
+.custom-list-menu li a{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 100%; 
+    color: #ff6d13;  background-color: #faffc6;
+    position:relative;
+}.custom-list-menu-icon{
+    font-family: 'Mulish';
+    font-size: 20px;
+    text-shadow: 0px 0px 1px #333;
+    line-height: 72px;
+    position: absolute;
+    width: 90px;
+    left: 20px;
+    text-align: center;
+    transition: all 300ms linear;
+}.custom-list-menu-content{
+    position: absolute;
+    left: 120px;
+    width: 370px;
+    height: 60px;
+    top: 6px;
+}.custom-list-menu-main{
+    font-size: 14px;
+    transition: all 300ms linear;
+}
+.custom-list-menu-sub{
+    font-size: 12px;
+    color: #666;
+    transition: all 300ms linear; 
+}.custom-list-menu li:hover{
+   border-color: #FF9800;
+    background: #fffdd9;
+}
+.custom-list-menu li:hover{
+    background-color: #faffc6;
+}
+.custom-list-menu li:hover .custom-list-menu-icon{
+    color: #FFC107;
+    text-shadow: 0px 0px 1px #fff004;
+    font-size: 30px;
+}
+.custom-list-menu li:hover .custom-list-menu-main{
+        color: #FFC107;
+    font-size: 22px;
+}
+.custom-list-menu li:hover .custom-list-menu-sub{
+        color: #FFC107;
+    font-size: 13px; display: none;
+}
