@@ -2,7 +2,12 @@
 😉 A repo for projects created using css only 👍 :smile:
 
 
-| FirstName     | LastName      | City     |
+| #     | Project      | link     |
 | ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
-| Bob           | Test2         | Toronto  |
+| 01          | Popup         | NA  |
+| 02           | Landing-text-animation         | NA  |
+| 03           | landing-text-animation         | NA  |
+| 04           | glass-effect         | NA  |
+| 05           | menu-list-animation         | NA  |
+| 06           | pearls_floating_animation         | NA  |
+
