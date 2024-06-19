@@ -1,0 +1,93 @@
+@keyframes quiet {
+    20%{
+      transform: scaleY(.6);
+    }
+    55%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.8);
+    }
+  }
+  
+  @keyframes normal {
+    20%{
+      transform: scaleY(1);
+    }
+    55%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.6);
+    }
+  }
+  @keyframes loud {
+    20%{
+      transform: scaleY(1);
+    }
+    55%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(1.2);
+    }
+  }
+   
+  .boxContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    --boxSize: 3px;
+    --gutter: 8px;
+    width: calc((var(--boxSize) + var(--gutter)) * 5);
+  }
+  
+  .box{
+    transform: scaleY(.4);
+    height: 100%;
+    width: var(--boxSize);
+    background: #97291e;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 8px;
+  }
+  
+  .box1{
+    animation-name: quiet; background-color: #e77817b8;
+  }
+  
+  .box2{
+    animation-name: normal;
+  }
+  
+  .box3{
+    animation-name: quiet;
+  }
+  
+  .box4{
+    animation-name: loud; background: #e77817;
+  }
+  
+  .box5{
+    animation-name: quiet; background: #e77817;
+  }
+  .box6{
+    animation-name: quiet;    background-color: #e77817b8;
+  }
+  
+  .box7{
+    animation-name: normal;
+  }
+  
+  .box8{
+    animation-name: quiet;    background-color: hsl(12deg 83% 32% / 70%);
+  }
+  
+  .box9{
+    animation-name: loud;
+  }
+  
+  .box10{
+    animation-name: quiet; background-color: #e77817b8;
+  }
