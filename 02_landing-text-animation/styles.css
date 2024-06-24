@@ -54,5 +54,5 @@ div.sub-heading:last-of-type span {
     20% {opacity:1;width:0px;}
     30% {width:355px;}
     80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+    100% {opacity:0;width:355px;} 
 }
