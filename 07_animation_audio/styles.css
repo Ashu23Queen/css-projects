@@ -7,7 +7,7 @@
     }
     75%{
       transform: scaleY(.8);
-    }
+    } 
   }
   
   @keyframes normal {
