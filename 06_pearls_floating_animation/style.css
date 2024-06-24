@@ -47,7 +47,7 @@ body {
   }
   
   @-webkit-keyframes sideWays {
-    0% {
+    0% { 
       margin-left: 0px;
     }
     100% {
